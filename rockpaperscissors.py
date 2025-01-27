@@ -17,7 +17,7 @@ choice=('r','p','s')
 com=random.randint(0,2)
 com=choice[com]
 
-me=input("Enter r, p or s: ")
+me=input("Enter r for rock, p for paper or s for scissor: ")
 win=rps(com,me)
 print(f"you chose {me} computer chose {com}")
 if(win==None):
